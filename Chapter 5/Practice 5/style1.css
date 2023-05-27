@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* list-style-type: none; */
+    list-style: square outside url("/Chapter 5/Image/Image1.jpg");
+    margin-left: 40px;
+    font-size: 80px;
+}

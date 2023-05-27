@@ -1,0 +1,17 @@
+.container {
+    background-color: burlywood;
+    height: 34vh;
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color: black;
+    }
+    .container {
+        background-color: rgb(202, 131, 143);
+        color: white;
+    }
+}

@@ -1,0 +1,19 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    float: right;
+    clear: both;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: darkgray;
+    float: right;
+    clear: both;
+}

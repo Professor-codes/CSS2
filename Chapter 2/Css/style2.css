@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin: 10px;    
+}
+
+.container0 {
+    margin: 10px;
+    padding: 0;
+
+    width: 300px;
+    height: 900px;
+
+    border: 2px solid rgb(0, 0, 0);
+
+
+    /* The background-color property  */
+    color: rgb(195, 0, 255);
+
+
+    /* The background-image property  */
+    background-image: url('/Chapter 2/Image/Image2.jpg');
+    background-repeat: no-repeat;
+
+
+    /* The background-size property  */
+    /* background-size: width height; */
+    background-size: 160px 120px;
+
+
+    /* The background-position property */
+    /* background-position: center; */
+
+
+    /* The background-attachment property  */
+    background-attachment: scroll;
+
+
+    /* The background shorthand property  */
+    /* background: 2px solid url('/Chapter 2/Image/Image2.jpg') black fixed no-repeat; */
+}
+
+.container1 {
+
+    margin: 10px;
+
+    border: 2px solid rgb(0, 0, 0);
+
+    /* The background-color property  */
+    color: rgb(195, 0, 255);
+
+    /* The background-image property  */
+    background-image: url('/Chapter 2/Image/Image2.jpg');
+    background-repeat: no-repeat;
+
+    /* The background-size property  */
+    width: 300px;
+    height: 300px;
+    background-size: contain; 
+}
+
+.container2 {
+
+    margin: 10px;
+
+    border: 2px solid rgb(0, 0, 0);
+
+    /* The background-color property  */
+    color: rgb(195, 0, 255);
+
+    /* The background-image property  */
+    background-image: url('/Chapter 2/Image/Image2.jpg');
+    background-repeat: no-repeat;
+
+    /* The background-size property  */
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+
+.container3 {
+
+    margin: 10px;
+
+    border: 2px solid rgb(0, 0, 0);
+
+    /* The background-color property  */
+    color: rgb(195, 0, 255);
+
+    /* The background-image property  */
+    background-image: url('/Chapter 2/Image/Image2.jpg');
+    background-repeat: no-repeat;
+
+    /* The background-size property  */
+    width: 300px;
+    height: 300px;
+    background-size: auto;
+}

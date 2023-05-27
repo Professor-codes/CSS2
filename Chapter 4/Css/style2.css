@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(9, 32, 75);
+
+}
+
+.box1 {
+    width: 600px;
+    height: 200px;
+
+    background-color: rgb(12, 5, 73);
+    color: white;
+
+    border: 2px solid rgb(255, 255, 255);
+
+    padding-top: 2px;
+    padding-left: 2px;
+
+    text-align: lefrt;
+}
+
+.box2 {
+    width: 600px;
+    height: 200px;
+
+    background-color: rgb(12, 5, 73);
+    color: white;
+
+    border: 2px solid white;
+
+    padding-top: 2px;
+    padding-left: 2px;
+
+    text-align: right;
+}
+
+.box3 {
+    width: 600px;
+    height: 200px;
+
+    background-color: rgb(12, 5, 73);
+    color: white;
+
+    border: 2px solid white;
+
+    padding-top: 2px;
+    padding-left: 2px;
+
+    text-align: center;
+}

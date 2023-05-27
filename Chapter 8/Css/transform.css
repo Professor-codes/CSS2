@@ -1,0 +1,15 @@
+.container {
+    background-color: lightsalmon;
+    height: 400px;
+}
+
+.box {
+    background-color: rgb(118, 118, 233);
+    color: white;
+    padding: 12px;
+    border: 1px solid black;
+
+    transform-origin: 0;
+
+    transform: translate(20px);
+}

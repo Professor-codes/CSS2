@@ -1,0 +1,12 @@
+.container1 {
+    background-color: brown;
+    color: white;
+}
+
+.container2 {
+    list-style: circle outside url('/Chapter 5/Image/Image1.jpg');
+}
+
+.size {
+    font-size: 100px;
+}

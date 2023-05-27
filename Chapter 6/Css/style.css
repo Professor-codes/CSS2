@@ -1,0 +1,27 @@
+.box {
+    font-size: 30px;
+}
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    float: right;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    float: right;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    float: right;
+}
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-color: darkgrey;
+    float: right;
+}

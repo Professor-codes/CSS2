@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(189, 165, 255);
+}
+
+.box1 {
+    /* Text-decoration property  */
+    text-decoration: rgb(98, 0, 255) wavy underline;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    height: 160px;
+    width: 202px;
+}
+
+.box2 {
+    /* text-transform property */
+    text-transform: capitalize;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    height: 160px;
+    width: 202px;
+}
+
+.box3 {
+    /* line-height property */
+    line-height: 0.8;
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    height: 160px;
+    width: 202px;
+}

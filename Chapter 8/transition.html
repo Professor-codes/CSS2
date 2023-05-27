@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Chapter 8/Css/transition.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/Chapter 8/Image/Image1.jpg" alt="" class="img" id="myImage">
+            <button id="btn">Click here</button>
+        </div>
+    </div>
+
+    <script>
+        myImage.style.width = "300px";
+
+        btn.addEventListener("click", () => {
+            if (myImage.style.width === "900px") {
+                myImage.style.width = "300px";
+            }
+
+            else if (myImage.style.width === "300px"){
+                myImage.style.width = "900px";
+            }
+        })
+
+        btn.addEventListener("click", () => {
+            if(myImage.style.height === "700px") {
+                myImage.style.height = "300px";
+            }
+            else if (myImage.style.height = "300px") {
+                myImage.style.height = "700px";
+            }
+        })
+    </script>
+</body>
+
+</html>

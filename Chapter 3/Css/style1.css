@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.box1 {
+    background-color: rgb(0, 78, 122);
+    color: white;
+
+    /* Max margin size will be considered  */
+    /* margin: 30px; */
+
+    height: 70px;
+    margin: 30px;
+}
+
+.box2 {
+    background-color: coral;
+    color: black;
+
+    /* Min margin size will not be considered  */
+    /* margin: 20px; */
+
+    height: 70px;
+    margin: 30px;
+
+}

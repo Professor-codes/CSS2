@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+    height: 22px;
+    padding: 30px;
+    margin-top: -3.3px;
+}
+
+.list {
+    /* display: flex; */
+    margin-left: 1200px;
+    padding-top: 15px;
+}
+
+li {
+    margin-left: 20px;
+    list-style-type: none;
+
+    /* Display inline iin list - best option for set icons to inline  */
+    display: inline;
+
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+.green {
+    background-color: green;
+    display: inline-block;
+
+    width: 50%;
+    height: 646px;
+}
+
+.red {
+    background-color: red;
+    display: inline-block;
+
+    width: 50%;
+    height: 646px;
+
+    /* margin left - due to white space between two div */
+    margin-left: -4px;
+}

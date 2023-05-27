@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+
+}
+
+.content {
+    background-color: chartreuse;
+
+    width: 640px;
+    height: 480px;
+
+    /* font-size property */
+    font-size: 200px;
+    font-style: italic;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* google fonts  */
+    /* https://fonts.google.com/featured */
+
+}

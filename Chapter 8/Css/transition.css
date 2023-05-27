@@ -1,0 +1,28 @@
+.container {
+    background-color: darkblue;
+    height: 900px;
+}
+
+#myImage {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+
+    transition-property: width, height;
+    transition-timing-function: cubic-bezier(0.63, -0.04, 0.68, 0.19);
+    transition: width 1s cubic-bezier(0.63, -0.04, 0.68, 0.19), height 4s cubic-bezier(0.63, -0.04, 0.68, 0.19);
+
+}
+
+#btn {
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 86px;
+    border-radius: 16px;
+}

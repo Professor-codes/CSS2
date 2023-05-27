@@ -1,0 +1,45 @@
+/* Content-box : Include only width/height */
+/* Border-box : Include content/padding/border */
+
+.box1 {
+    background-color: black;
+    color: chartreuse;
+
+    margin: 10px 50px 10px 0px;
+    height: 276px;
+    width: 250px;
+    
+}
+.box2 {
+    background-color: brown;
+    color: rgb(0, 204, 255);
+
+    margin: 10px 50px 10px 0px;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+
+    box-sizing: border-box;
+
+}
+
+.box3 {
+    background-color: black;
+    color: chartreuse;
+
+    margin: 10px 50px 10px 0px;
+    height: 276px;
+    width: 250px;
+}
+.box4 {
+    background-color: brown;
+    color: rgb(0, 204, 255);
+
+    margin: 10px 50px 10px 0px;
+    height: 80px;
+    width: 100%;
+    padding: 30px;
+
+    box-sizing: content-box;
+
+}

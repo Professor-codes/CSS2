@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.box1 {
+    /* display: none; */
+
+    height: 200px;
+    width: 200px;
+
+    background-color: cadetblue;
+    color: black;
+
+    padding: 10px 0px 0px 10px;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+
+    background-color: darkred;
+    color: white;
+
+    padding: 10px 0px 0px 10px;
+}
+
+.box3 {
+    visibility: hidden;
+
+    height: 200px;
+    width: 200px;
+
+    background-color: cadetblue;
+    color: white;
+
+    padding: 10px 0px 0px 10px;
+    margin-top: 50px;
+}
+.box4 {
+    height: 200px;
+    width: 200px;
+
+    background-color: darkred;
+    color: white;
+
+    padding: 10px 0px 0px 10px;
+}

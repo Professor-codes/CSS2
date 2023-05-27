@@ -1,0 +1,12 @@
+.img {
+    height: 300px;
+    width: 300px;
+
+    border: 2px solid black;
+
+    background-image: url('/Chapter 2/Image/Image1.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+
+}

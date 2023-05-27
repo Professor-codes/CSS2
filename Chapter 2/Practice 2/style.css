@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: rgb(8, 11, 57);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+
+    width: 500px;
+}
+
+li {
+    margin: 30px;
+
+    width: 200px;
+    height: 20px;
+    background-color: rgb(175, 204, 255);
+}
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+
+.box {
+    height: 158px;
+    width: 175px;
+    background-color: darkblue;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    /* animation-name: width;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+    animation-name: width, height, font;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    /* font-size: ; */
+}
+
+@keyframes width {
+    from {
+        width: 175px;
+    }
+
+    to {
+        width: 600px;
+    }
+}
+
+@keyframes height {
+    from {
+        width: 175px;
+    }
+
+    to {
+        height: 480px;
+    }
+}
+@keyframes font {
+    from {
+        font-size: 5.5px;
+    }
+    to {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 90px;
+    /* width: 100%; */
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 22px;
+    padding-top: 28px;
+}
+.container
+{
+    background-color: antiquewhite;
+    height: 1200px;
+}

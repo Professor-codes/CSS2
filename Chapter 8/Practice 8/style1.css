@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgb(82, 73, 73);
+    height: 760px;
+   
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin-top: 206px;
+
+    animation: img 4s ease-in infinite;
+}
+
+@keyframes img {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

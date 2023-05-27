@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    /* z-index: 2; */  
+
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    font-size: 2vw;
+    margin-left: 18px;
+    padding-top: 14px;
+}
+
+ul {
+    height: 50px;
+}
+
+.container {
+    min-height: 1000px;
+    background-color: rgb(205, 178, 240);
+    position: relative;
+    /* z-index: 1; */
+}

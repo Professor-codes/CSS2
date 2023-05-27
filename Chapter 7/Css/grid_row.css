@@ -1,0 +1,40 @@
+.container1 {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 200px;
+}
+
+.boxfirst {
+    background-color: rgb(92, 115, 158);
+}
+
+.boxfirst.box1 {
+    grid-row: 1/4;
+}
+
+.boxfirst.box8 {
+    grid-column: 1/4;
+}
+
+.boxfirst.box9 {
+    grid-column: 1/4;
+    height: 120px;
+}
+
+/* -------------------------------------- */
+
+.container2 {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: auto auto auto;
+}
+
+.boxsecond {
+    background-color: rgb(196, 51, 80);
+}
+
+.boxsecond.box1 {
+    grid-row: 1/ span 4;
+    height: 150px;
+}

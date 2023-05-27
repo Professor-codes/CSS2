@@ -1,0 +1,28 @@
+.container1 {
+    font-size: 30px;
+    background-color: rgb(11, 11, 107);
+    color: white;
+}
+
+.box1 {
+    font-size: 10px;
+}
+
+.box2 {
+    font-size: 3em;
+    /* 3em = 3*30px */
+}
+
+.box3 {
+    font-size: 3rem;
+    /* 3rem = 3*html tag */
+}
+
+.container2 {
+    font-size: 30px;
+    background-color: darksalmon;
+}
+
+.box4 {
+    font-size: 5vw;
+}

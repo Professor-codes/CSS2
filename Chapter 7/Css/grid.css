@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(109, 102, 102);
+}
+
+.container1 {
+    display: grid;
+    background-color: rgb(241, 236, 236);
+
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+
+    grid-template-columns: auto auto;
+    /* grid-template-rows: auto auto; */
+
+    margin-bottom: 200px;
+}
+
+.item1 {
+    background-color: rgb(235, 101, 127);
+    border: 2px solid black;
+}
+
+.container2 {
+    display: grid;
+    background-color: rgb(241, 236, 236);
+
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+
+    grid-template-columns: 100px 400px;
+}
+
+.item2 {
+    background-color: rgb(235, 101, 127);
+    border: 2px solid black;
+}
